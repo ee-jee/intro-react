@@ -1,7 +1,6 @@
 import React from "react";
 import Table from "./Table";
 import List from "./List";
-/*Add import statement here*/
 
 class App extends React.Component {
   constructor(props) {
@@ -9,7 +8,8 @@ class App extends React.Component {
 
     this.state = {
       buttonClicked: "",
-      assignments: [] /*Below this line, add the students state variable*/,
+      assignments: [] ,
+      students: [],
       grades: {}
     };
 
